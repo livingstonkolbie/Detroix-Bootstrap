@@ -1,0 +1,118 @@
+
+body {
+    background-color: #f2f3f5;
+}
+
+/* START TOP BAR */
+
+
+.topBar {
+    background-color: #0b0b31;
+}
+
+.row {
+    align-items: baseline;
+}
+
+.topBarP {
+    font-size: small;
+    color: #a9a9a9;
+}
+
+.topBarNav {
+    font-size: small;
+}
+
+.nav-link {
+    color: #a9a9a9;
+}
+
+@media (min-width: 1024px) {
+
+}
+
+/* START HERO SECTION */
+
+.detroixLogo {
+    text-align: center;
+}
+
+.detroixMan {
+    width: 100%;
+    margin: 2% 0 0 0;
+}
+
+.buttonRow {
+    text-align: center;
+}
+
+.btn.btn-primary {
+    font-size: small;
+    background-color: #0b0b31;
+}
+
+
+/* START CIRCLES */
+
+.circles {
+    justify-self: center;
+}
+
+.btn.btn-secondary {
+    width: 4%;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #808080;
+}
+
+
+/* START ABOUT SECTION */
+
+.card {
+    border: none;
+    background-color: #f2f3f5;
+}
+
+.btn.btn-info {
+    background-color: #0b0b31;
+    color: #ffffff;
+    border: none;
+}
+
+
+/* EXTRA INFO */
+
+.extraInfo {
+    background: rgb(15,24,33);
+    background: linear-gradient(0deg, rgba(15,24,33,1) 25%, rgba(24,39,56,1) 75%);
+}
+
+.card.mb-3 {
+    background-color: transparent;
+}
+
+.extraInfoTitle {
+    color: #ffffff;
+}
+
+.btn.btn-light {
+    border: none;
+    background-color: #213349;
+    color: #ffffff;
+}
+
+.cog {
+    width: 100%;
+    list-style: none;
+    padding: 1%;
+    color: #80806d;
+  }
+
+.imgBubble {
+    width: 18%;
+}
+
+.oppH3 {
+    font-size: small;
+    color: #ffffff;
+}
