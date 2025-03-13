@@ -23,11 +23,43 @@ body {
     font-size: small;
 }
 
+.topBarNav ul {
+    justify-self: center;
+    list-style: none;
+}
+
+.topBarNav li {
+    display: inline-block;
+    text-align: center;
+}
+
 .nav-link {
     color: #a9a9a9;
 }
 
 @media (min-width: 1024px) {
+
+    header {
+        width: 100%;
+    }
+    
+    .topBar {
+        height: 40px;
+    }
+
+    .topBarP {
+        position: relative;
+        top: 8px;
+        left: 85px;
+    }
+
+    .topBarNav ul {
+        justify-self: end;
+        list-style: none;
+        position: relative;
+        bottom: 27px;
+        right: 75px;
+    }
 
 }
 
@@ -49,6 +81,10 @@ body {
 .btn.btn-primary {
     font-size: small;
     background-color: #0b0b31;
+}
+
+@media (min-width: 1024px) {
+
 }
 
 
@@ -109,10 +145,39 @@ body {
   }
 
 .imgBubble {
-    width: 18%;
+    width: 60%;
 }
 
 .oppH3 {
-    font-size: small;
+    font-size: larger;
     color: #ffffff;
+}
+
+.oppP {
+    color: #a99b79;
+}
+
+.newsRow {
+    align-items: normal;
+}
+
+.newsTitle {
+    color: #ffffff;
+}
+
+.newsP {
+    color: #a99b79;
+}
+
+/* START FOOTER */
+
+footer {
+    justify-items: center;
+    height: 10%;
+    color: #ffffff;
+    background-color: #0e1e31;
+}
+
+footer p {
+    text-align: center;
 }
