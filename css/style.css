@@ -50,7 +50,7 @@ body {
     .topBarP {
         position: relative;
         top: 8px;
-        left: 85px;
+        left: 56px;
     }
 
     .topBarNav ul {
@@ -72,6 +72,7 @@ body {
 .detroixMan {
     width: 100%;
     margin: 2% 0 0 0;
+    border-radius: 2%;
 }
 
 .buttonRow {
@@ -84,7 +85,27 @@ body {
 }
 
 @media (min-width: 1024px) {
+    .detroixLogo {
+        text-align: left;
+    }
 
+    .detroixLogo img {
+        position: relative;
+        left: 23px;
+        top: 17px;
+    }
+
+    .buttonRow {
+        text-align: end;
+        position: relative;
+        bottom: 28px;
+        right: 53px;
+    }
+
+    .detroixMan {
+        padding: 0% 4%;
+        border-radius: 5%;
+    }
 }
 
 
@@ -102,7 +123,7 @@ body {
 }
 
 
-/* START ABOUT SECTION */
+/* START SSS SECTION */
 
 .card {
     border: none;
@@ -113,6 +134,13 @@ body {
     background-color: #0b0b31;
     color: #ffffff;
     border: none;
+}
+
+@media (min-width: 1024px) {
+
+    .sectionSSS {
+        padding: 0 4%;
+    }
 }
 
 
