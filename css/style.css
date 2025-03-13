@@ -193,6 +193,38 @@ body {
     color: #ffffff;
 }
 
+@media (min-width: 1024px) {
+    .newsSect {
+        position: relative;
+    }
+
+    .cog {
+        margin-top: 20px;
+    }
+    .btn.btn-light {
+        border: none;
+        background-color: #213349;
+        color: #ffffff;
+        position: relative;
+    }
+
+    .test.btn.btn-light {
+        position: relative;
+        top: 50px;
+        left: 6px;
+    }
+
+    .test2.btn.btn-light {
+        position: relative;
+        top: 13px;
+    }
+
+    .oppP {
+        padding-bottom: 63px;
+        padding-top: 18px;
+    }
+}
+
 .newsP {
     color: #a99b79;
 }
@@ -208,4 +240,13 @@ footer {
 
 footer p {
     text-align: center;
+    position: relative;
+    top: 6px;
+}
+
+@media (min-width: 1024px) {
+    footer p {
+        position: relative;
+        top: 6px;
+    }
 }
